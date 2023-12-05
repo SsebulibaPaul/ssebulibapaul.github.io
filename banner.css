@@ -1,0 +1,35 @@
+.banner {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-color);
+    /* background-color: #fff; */
+}
+
+.banner * {
+    color: #fff;
+}
+
+.banner.pages {
+    width: 100%;
+    height: 30vh;
+}
+
+.banner .title {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.banner .text {
+    margin-top: 1rem;
+    text-align: center;
+    font-style: italic;
+}
+
+.banner .card {
+    /* padding: 4rem; */
+    /* background-color: var(--primary-color); */
+    border-radius: var(--med-bd-rad);
+}

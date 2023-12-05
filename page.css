@@ -1,0 +1,71 @@
+.pages {
+    display: none;
+}
+
+.section {
+    width: 100%;
+    min-height: 50vh;
+    padding: 5rem 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+}
+
+.section:last-of-type {
+    padding: 5rem 0;
+}
+
+.section .title {
+    font-size: var(--med-title-size);
+    text-align: center;
+}
+
+.section .text, 
+.section .list li {
+    background-color: transparent;
+}
+
+.section .text {
+    text-align: center;
+}
+
+.section .list {
+    margin-top: 2rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    background-color: transparent;
+}
+
+.section .list li {
+    background-color: #fff;
+}
+
+.section .list .card {
+    border-radius: var(--std-bd-rad);
+}
+
+.section .list .card .title {
+    font-size: var(--small-title-size);
+    text-align: left;
+}
+
+.section .list li img {
+    max-height: 12rem;
+}
+
+.section .list li .text {
+    padding: 1.2rem;
+    text-align: left;
+}
+
+.section .card .title {
+    /* font-size: 1.2rem; */
+    font-size: 1rem;
+}
+
+.section .card .desc {
+    margin-top: 0.3rem;
+    font-size: var(--small-text-size);
+}

@@ -1,0 +1,47 @@
+.site-header, 
+.site-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-header {
+    width: 100%;
+    min-height: 15vh;
+    align-items: center;
+    background-color: var(--bg-color);
+    /* background-color: #fff; */
+}
+
+.site-header * {
+    color: #fff;
+}
+
+.site-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-header .info .title {
+    font-size: 1rem;
+}
+
+.site-header .info .list {
+    margin-top: 0.3rem;
+}
+
+.site-header .info .list li {
+    font-size: 0.8rem;
+}
+
+.site-nav .list.menu {
+    display: flex;
+}
+
+.site-nav .list.menu li {
+    margin-left: 2rem;
+}
+
+.site-nav .list li a {
+    text-transform: capitalize;
+    font-size: var(--text-size);
+}
