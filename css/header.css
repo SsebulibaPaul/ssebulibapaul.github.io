@@ -8,7 +8,7 @@
 .site-header {
     width: 100%;
     min-height: var(--header-height);
-    background-color: transparent;
+    background-color: var(--bg-color);
     position: fixed;
     top: 0;
     left: 0;
