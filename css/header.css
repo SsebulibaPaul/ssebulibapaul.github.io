@@ -15,7 +15,12 @@
 }
 
 .header-scrolled {
+    min-height: 10vh;
     background-color: var(--bg-color);
+}
+
+.header-scrolled .desc {
+    display: none;
 }
 
 .site-header .desc {

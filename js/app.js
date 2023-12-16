@@ -2,7 +2,7 @@ window.onload = ()=> {
 
     feather.replace();
 
-    let site_header = document.querySelector('.site-header');
+    let site_header = document.querySelector('#site-header');
 
     function stickyHeader(element, page_divided_by) {
         window.addEventListener('scroll', ()=>{ 
@@ -20,6 +20,6 @@ window.onload = ()=> {
         });
     }
 
-    // stickyHeader(site_header, 6);
+    stickyHeader(site_header, 6);
     
 }
