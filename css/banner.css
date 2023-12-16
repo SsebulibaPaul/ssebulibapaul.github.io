@@ -1,0 +1,67 @@
+.banner {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-color);
+    /* background-image: url('../images/ssebuliba-paul-aloe-vera001_preview5.webp'); */
+    /* background-image: url('../images/ssebuliba-paul-web-developer-banner.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+
+.banner * {
+    color: #fff;
+}
+
+.banner .overlay {
+    width: 100%;
+    height: 100%;
+    padding-top: var(--header-height);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.banner.pages {
+    width: 100%;
+    height: 30vh;
+}
+
+.banner .title {
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.banner .text {
+    margin-top: 1.5rem;
+    text-align: left;
+    font-style: italic;
+}
+
+.banner .card {
+    /* padding: 4rem; */
+    /* background-color: var(--primary-color); */
+    border-radius: var(--med-bd-rad);
+}
+
+@media only screen and (min-width: 480px) {
+
+    .banner {
+        height: 80vh;
+    }
+
+    .banner .title {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .banner .text {
+        text-align: center;
+    }
+
+}

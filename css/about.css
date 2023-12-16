@@ -1,0 +1,93 @@
+.about  {
+    /* padding: 0 !important; */
+    min-height: 35vh;
+}
+
+.about .flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about .info-holder {
+    width: 100%;
+    background-color: transparent;
+}
+
+.about .info {
+    padding: 3rem;
+    background-color: var(--bg-color);
+    border-radius: var(--med-bd-rad);
+}
+
+.about .info * {
+    color: #fff;
+}
+
+.about .info .title {
+    font-size: var(--med-title-size);
+}
+
+.about .content {
+    margin-top: 1.5rem;
+}
+
+.about .content * {
+    text-align: left;
+}
+
+.about .title {
+    text-align: left;
+}
+
+.about .info ul {
+    margin-top: 1rem;
+}
+
+.about .info li {
+    font-size: var(--text-size);
+}
+
+.about .pipeline {
+    margin-top: 1.5rem;
+    width: 100%;
+    /* padding: 2rem; */
+    background-color: transparent;
+}
+
+.about .list {
+    display: block;
+}
+
+.about .list .card {
+    margin-top: 1rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.about .list .card img {
+    margin-right: 1.5rem;
+    width: 2rem;
+}
+
+.about .list .card .text {
+    padding: 0;
+}
+
+@media only screen and (min-width: 480px) {
+
+    .about .flex {
+        flex-wrap: nowrap;
+    }
+
+    .about .info-holder {
+        width: 50%;
+    }
+
+    .about .pipeline {
+        margin-top: 0;
+        width: 45%;
+    }
+
+}

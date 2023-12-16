@@ -1,0 +1,23 @@
+:root {
+    /* --primary-color: #5b5cc8; */
+    /* --bg-color: #2C2F3A; */
+    --dark-color: #2c3e50; /* from vue */
+    --bg-color: #2c3e50;
+    --sp-grey: #222;
+    --sp-green: #29c65d; /* #21ff6a this is newer and brighter*/
+    --primary-color: #21ff6a;
+
+    --main-title-size: 3rem;
+    --med-title-size: 1.5rem;
+    --small-title-size: 1.2rem;
+
+    --text-size: 0.9rem;
+    --small-text-size: 0.85rem;
+    --very-small-text-size: 0.75rem;
+    --text-color: #333;
+
+    --std-bd-rad: 0.2rem;
+    --med-bd-rad: 0.4rem;
+
+    --header-height: 15vh;
+}

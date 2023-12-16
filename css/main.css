@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, "Segoe UI", Roboto, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+a:hover {
+    color: var(--primary-color);
+}
+
+li {
+    list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+}
+
+p, li, .text {
+    font-size: var(--text-size);
+    color: var(--text-color);
+    line-height: 1.5rem;
+}
+
+img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.wrapper {
+    margin: auto;
+    width: 85%;
+}
+
+.card {
+    overflow: hidden;
+    border-radius: var(--std-bd-rad);
+    box-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.05);
+}
+
+.main-title {
+    font-size: var(--main-title-size);
+}
+
+.toi {
+    color: var(--primary-color) !important;
+}
+
+@media only screen and (min-width: 480px) {
+
+    .wrapper {
+        width: 80%;
+    }
+
+}
