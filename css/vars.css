@@ -1,8 +1,9 @@
 :root {
     /* --primary-color: #5b5cc8; */
     /* --bg-color: #2C2F3A; */
-    --dark-color: #2c3e50; /* from vue */
-    --bg-color: #2c3e50;
+    --dark-color: #213547; /* from vue */
+    /* --bg-color: #213547; */ /* from vue*/
+    --bg-color: #0d1117; /* from github*/
     --sp-grey: #222;
     --sp-green: #29c65d; /* #21ff6a this is newer and brighter*/
     --primary-color: #21ff6a;
