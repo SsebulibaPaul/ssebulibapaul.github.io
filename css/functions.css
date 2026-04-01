@@ -1,0 +1,3 @@
+@function --blink(--seconds) {
+    result: blink-animation var(--seconds) step-start infinite;
+}

@@ -1,0 +1,41 @@
+:root {
+    --header-height: 10vh;
+
+    /* --primary: lcha(0.56, 0.24, 278, 1); */
+    --primary: rgba(94, 83, 252, 1);
+    /* --primary-translucent: rgba(94, 83, 252, 0.4); */
+    --primary-faint: color-mix(in oklab, var(--primary) 90%, transparent);
+    --ring: rgba(94, 83, 252, 0.4);
+    --background: rgb(252, 252, 252);
+    
+    --border-faint: color-mix(in oklab, var(--primary) 40%, transparent);
+    --bg-primary: color-mix(in oklab, var(--primary) 5%, transparent);
+
+    --foreground: rgb(255, 255, 255);
+    --heading-color: rgb(7, 5, 6);
+    --text-color: rgb(36, 39, 45);
+
+    --max-page-width: calc(1920px / 1.5);
+    --max-component-width: 720px;
+
+    --text-size: 0.9rem;
+    --small-text-size: 0.85rem;
+    --smallest-text-size: 0.8rem;
+
+    --line-height-small: 1.2rem;
+    --line-height-big: 1.5rem;
+
+    --small-bdr-radius: 0.15rem;
+
+    --font-mono: monospace, "Fira Code", "Geist Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New";
+}
+
+@media only screen and (min-width: 770px) {
+    :root {
+        --header-height: 15vh;
+    
+        --text-size: 1rem;
+        --small-text-size: 0.85rem;
+        --smallest-text-size: 0.8rem;
+    }
+}

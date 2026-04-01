@@ -1,0 +1,32 @@
+#about .banner img {
+    margin: auto;
+    margin-top: 2rem;
+    height: 10rem;
+}
+
+.indie-section {
+    .title {
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+    .info-list {
+        display: grid;
+        gap: 1.5rem;
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    }
+}
+
+.experience li {
+    margin-top: 1rem;
+}
+
+/* .experience li p {
+    font-size: var(--small-text-size);
+} */
+
+@media only screen and (min-width: 770px) {
+    #about .banner img {
+        width: 80%;
+        height: 18rem;
+    }
+}

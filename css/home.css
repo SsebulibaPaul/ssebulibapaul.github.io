@@ -1,0 +1,22 @@
+.web-solutions {
+    width: 100%;
+    padding: 4rem 0;
+    background-color: #fff;
+}
+
+.web-solutions .title {
+    font-size: 2.5rem;
+}
+
+@media only screen and (min-width: 770px) {
+
+    .web-solutions .title {
+        text-align: center;
+    }
+    
+    .web-solutions .text {
+        margin: auto;
+        width: 70%;
+        text-align: center;
+    }
+}

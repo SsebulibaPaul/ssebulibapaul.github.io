@@ -1,0 +1,43 @@
+.status-page {
+    height: 75vh;
+}
+
+.status-page .content {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.status-page .wrapper {
+    width: 60%;
+}
+
+.status-page .title {
+    font-size: 2rem;
+    text-align: center;
+    text-transform: unset;
+}
+
+.status-page .text {
+    margin-top: 1rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.status-page button {
+    margin: auto;
+    margin-top: 2rem;
+    display: block;
+    color: var(--primary-color);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 770px) {
+
+    .status-page .content {
+        height: 100%;
+    }
+
+}

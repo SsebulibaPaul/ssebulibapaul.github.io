@@ -1,0 +1,29 @@
+#work {
+    .icon {
+        margin: 1rem 0;
+    }
+    .mono-title {
+        margin-bottom: 0.5rem;
+        font-size: 0.8rem;
+    }
+
+    .card .text {
+        margin: 1rem 0;
+        font-size: var(--small-text-size);
+    }
+
+    .tags {
+        padding-top: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+
+        li {
+            padding: 0.2rem 0.3rem;
+            font-size: 0.8rem;
+            font-family: var(--font-mono);
+            background-color: var(--muted);
+            border-radius: 0.2rem;
+        }
+    }
+}

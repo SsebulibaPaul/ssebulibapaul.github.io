@@ -1,0 +1,58 @@
+.page {
+    margin-top: var(--header-height);
+    min-height: 75vh;
+}
+
+.page .intro .title {
+    font-size: 1.4rem;
+}
+
+.page .intro .text {
+    margin-top: 1rem;
+}
+
+.card-holder {
+    margin: 3rem auto;
+    max-width: var(--max-page-width);
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+
+    .card {
+        padding: 1.5rem;
+        background-color: var(--foreground);
+        border-radius: 0.8rem;
+        border: 1px solid var(--border);
+
+        .text {
+            line-height: var(--line-height-big);
+        }
+    }
+}
+
+
+.mono-title {
+    font-family: var(--font-mono);
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+}
+
+@media only screen and (min-width: 480px) {
+
+    .page .intro .title {
+        font-size: 2rem;
+    }
+
+    .page .intro .text {
+        margin-top: 0.5rem;
+    }
+
+    .centered-text {
+        margin: auto;
+        /* max-width: 60%; */
+        text-align: center;
+    }
+    
+}
