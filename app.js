@@ -28,7 +28,7 @@ App.config.globalProperties.$profile = {
     site_aka: "Pawulo",
     tagline: "Enhancing Digital Experiences",
     currentYear: new Date().getFullYear(),
-    start_date: 2018,
+    start_date: 2019,
     get yrs_of_exp() { return this.currentYear - this.start_date},
     contacts: {
         airtel: "+256 758 051679",
